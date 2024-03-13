@@ -16,3 +16,5 @@ IAM Access Advisor: Shows service permissions granted to a user and information 
 Explain the use case for using the credential report
 The credential report is useful to identify whether there any users who need assistance or attention in regards to their security. For example a user who didn't change his password for a long time and didn't activate MFA.
 
+What the Access Advisor is used/good for?
+Access Advisor can be good to evaluate whether there are services the user is not accessing (as in never or not frequently). This can be help in deciding whether some permissions should be revoked or modified
