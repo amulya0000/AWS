@@ -8,3 +8,8 @@ IAM user groups: An IAM user group is a collection of IAM users. User groups let
 IAM roles: IAM roles allow you to delegate access to users or services that normally don't have access to your organization's AWS resources. IAM users or AWS services can assume a role to obtain temporary security credentials that can be used to make AWS API calls. Consequently, you don't have to share long-term credentials or define permissions for each entity that requires access to a resource.
 
 IAM policy: A policy is an object in AWS that, when associated with an identity or resource, defines their permissions. AWS evaluates these policies when an IAM principal (user or role) makes a request. Permissions in the policies determine whether the request is allowed or denied.
+
+What security tools AWS IAM provides?
+IAM Credentials Report: lists all the account users and the status of their credentials
+IAM Access Advisor: Shows service permissions granted to a user and information on when he accessed these services the last time
+
