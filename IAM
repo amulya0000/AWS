@@ -13,3 +13,6 @@ What security tools AWS IAM provides?
 IAM Credentials Report: lists all the account users and the status of their credentials
 IAM Access Advisor: Shows service permissions granted to a user and information on when he accessed these services the last time
 
+Explain the use case for using the credential report
+The credential report is useful to identify whether there any users who need assistance or attention in regards to their security. For example a user who didn't change his password for a long time and didn't activate MFA.
+
