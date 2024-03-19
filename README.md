@@ -1,4 +1,4 @@
-                                                                              TOP 5 AWS SERVICES
+                                                    TOP 5 AWS SERVICES
 1. EC2 (Elastic Compute Cloud) - A web service that provides resizable compute capacity in the cloud. EC2 lets you quickly launch virtual machines, also known as instances, and configure them to meet your specific needs.
 2. S3 (Simple Storage Service) - An object storage service that offers industry-leading scalability, data availability, security, and performance. S3 lets you store and retrieve any amount of data from anywhere on the web.
 3. Lambda - A serverless computing service that lets you run code without provisioning or managing servers. With Lambda, you can build scalable and cost-effective applications that respond to events in real-time.
