@@ -63,4 +63,7 @@ Remember, ALB is for HTTP/HTTPS at Layer 7, NLB is for TCP/UDP at Layer 4, and G
 
  You should choose an Application Load Balancer (ALB) when you are dealing with web applications, APIs, or microservices that use HTTP or HTTPS traffic and need advanced routing features.
 
-You should choose a Network Load Balancer (NLB) when you have applications that require handling high volumes of TCP or UDP traffic with low latency and need static IP addresses for your backend servers.  
+You should choose a Network Load Balancer (NLB) when you have applications that require handling high volumes of TCP or UDP traffic with low latency and need static IP addresses for your backend servers.
+
+ You should consider using Gateway Load Balancer (GWLB) when you need to manage the inbound and outbound traffic to and from virtual appliances, such as firewalls and intrusion detection systems, in the cloud.
+    It provides centralized control and inspection of traffic flowing through these virtual appliances at the network and application layers.  
