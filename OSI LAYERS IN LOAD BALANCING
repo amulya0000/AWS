@@ -1,0 +1,36 @@
+---------------------------------------OSI LAYERS FOR LOAD BALANCING---------------------------------------------------
+Application layer:
+                      Where you define the protocol HTTP or anything from there it will go to presentation layer
+presentation layer:
+                      Where you will decide if it has to be a secure one you need to do any encrypting 
+Session layer:
+                      Where you will decide to create a session object  
+Transport layer:
+                      Where your request is segregated in to small small chunks and request is transmitted from the client to the server ,finally it will go routers.There will be a final router before the server 
+Data link layer:
+                      From this layer it can go to a switch and then cables and from cables it will reach the server
+
+
+
+
+
+1. **Physical Layer:**
+   The physical layer deals with the actual transmission and reception of data bits over a physical medium, ensuring the reliable transfer of signals through cables or wireless connections.
+   
+2. **Data Link Layer:**
+   The data link layer establishes reliable connections between nodes on a network, framing data into packets and performing error detection to ensure accurate transmission.
+   
+3. **Network Layer:**
+   The network layer is responsible for routing packets between different networks, determining the best path for data to travel from the source to the destination based on network conditions.
+   
+4. **Transport Layer:**
+   The transport layer ensures reliable end-to-end communication by segmenting data into smaller packets, managing data flow, and providing error detection and correction capabilities.
+   
+5. **Session Layer:**
+   The session layer establishes, maintains, and terminates connections between applications, allowing for the synchronization and organization of data exchange sessions.
+   
+6. **Presentation Layer:**
+   The presentation layer is responsible for translating data into a format that can be easily understood by the application layer, handling tasks like data encryption, compression, and decryption.
+   
+7. **Application Layer:**
+   The application layer serves as the interface between the network and end-users, providing services like email, file transfer, and web browsing through various protocols and applications.  
