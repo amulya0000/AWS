@@ -11,7 +11,7 @@ Data link layer:
                       From this layer it can go to a switch and then cables and from cables it will reach the server
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 1. **Physical Layer:**
@@ -35,7 +35,7 @@ Data link layer:
 7. **Application Layer:**
    The application layer serves as the interface between the network and end-users, providing services like email, file transfer, and web browsing through various protocols and applications.  
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ALB VS NLB VS GWLB
 
@@ -57,7 +57,7 @@ Remember, ALB is for HTTP/HTTPS at Layer 7, NLB is for TCP/UDP at Layer 4, and G
 
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
