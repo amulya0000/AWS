@@ -34,3 +34,23 @@ Data link layer:
    
 7. **Application Layer:**
    The application layer serves as the interface between the network and end-users, providing services like email, file transfer, and web browsing through various protocols and applications.  
+
+
+
+ALB VS NLB VS GWLB
+
+ Sure, here's a simple breakdown of the differences between ALB (Application Load Balancer), NLB (Network Load Balancer), and GWLB (Gateway Load Balancer):
+
+1. **Application Load Balancer (ALB):**
+   - ALB operates at the application layer (Layer 7) of the OSI model.
+   - It is used for distributing incoming application traffic across multiple targets, such as EC2 instances or containers, based on the content of the HTTP and HTTPS requests.
+
+2. **Network Load Balancer (NLB):**
+   - NLB operates at the transport layer (Layer 4) of the OSI model.
+   - It is designed to handle TCP, UDP, and TLS traffic, distributing incoming network traffic across multiple targets at the connection level.
+
+3. **Gateway Load Balancer (GWLB):**
+   - GWLB is a cloud-native load balancer designed to work with virtual appliances and Network Function Virtualization (NFV) workloads.
+   - It sits at the edge of the network, offering scalable and secure handling of internet and VPN traffic, including advanced features for network appliances.
+
+Remember, ALB is for HTTP/HTTPS at Layer 7, NLB is for TCP/UDP at Layer 4, and GWLB is designed for virtual appliances and edge network functionalities.  
