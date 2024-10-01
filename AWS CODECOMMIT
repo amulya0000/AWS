@@ -1,0 +1,12 @@
+AWS provides a comprehensive set of CI/CD (Continuous Integration /Continuous Deployment)services that enable developers to automate and stramline their software delivery processes.
+AWS CodeCommit ,AWSCodeBuild and AWS CodeDeploy are the key services involved in achieving CI/CD on AWS platform
+
+Advantages:
+--- Managed Git
+--- Scalability
+--- Reliability
+
+Disadvantages:
+--- Features
+--- AWS Restricted
+--- Less integrations with services outside AWS
